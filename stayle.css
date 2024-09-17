@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(87, 5, 39);
+}
+
+#thePage{
+    background-color: rgb(180, 180, 180);
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    margin-left: 200px;
+    padding-top: 70px;
+    padding-left: 30px;
+    background-image: url("image.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+#parametre{
+    background-color: rgb(204, 204, 204);
+    width: 200px;
+    height: 520px;
+    margin-left: 50px;
+    
+
+}
+
+#Cadre{
+    background-color: rgb(87, 5, 39);
+    width: 620px;
+    height: 520px;
+    border-radius: 7px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+
+};
+
+#colors{
+    display: flex;
+    flex-wrap: wrap;   
+}
+#colors button{
+    width: 50px;
+    height: 50px;
+    margin: 14px;
+    border-radius: 50%;
+}
+
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+
+#red{
+    background-color: red;
+}
+#orange{
+    background-color: orange;
+}
+#blue{
+    background-color: blue;
+}
+#pink{
+    background-color: pink;
+}
+#purple{
+    background-color: purple;
+}
+
+#indigo{
+    background-color: indigo;
+}
+
+#violet{
+    background-color: violet;
+
+}
+
+#brown{
+    background-color: brown;
+}
+#gray{
+    background-color: gray;
+}
+#black{
+    background-color: black;
+}
+
+
+
+#choice{
+    display: flex;
+}
+#choice button{ 
+    margin: 3px;
+    background-color: orange;
+    border-radius: 4px;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin mGothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#help{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 4px;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
